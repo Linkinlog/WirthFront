@@ -56,8 +56,8 @@ html{
   content: '';
   flex: 1;
   border-bottom: 1px solid var(--main-yellow);
-  margin-right: 2em;
-  margin-left: 2em;
+  margin-right: 2.5em;
+  margin-left: 2.5em;
 }
 
 .separator:not(:empty)::before {
@@ -106,7 +106,11 @@ html{
   .landing-link{
     min-height: 50vh;
   background-size: 100% 100%;
-
+  }
+  .separator::before,
+  .separator::after {
+    margin-right: 1em;
+    margin-left: 1em;
   }
 }
 
