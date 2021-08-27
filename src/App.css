@@ -25,7 +25,7 @@
 }
 
 .welcome{
-  padding-top: 40vh;
+  padding-top: 30vh;
   font-size: 10vw;
   font-family: 'Dancing Script', cursive;
   color: white;
@@ -92,10 +92,17 @@
 .landing-link {
   background-image: url("https://res.cloudinary.com/dhclz5fy2/image/upload/v1630026892/TheWirthHomeStead/landing-trowel_o1hhjz.jpg");
   background-repeat: no-repeat;
-  background-size: 82% 100%;
+  background-size: 85% 100%;
   background-position: center top;
-  min-height: 1200px;
-  margin-top: 10vh;
-  
+  min-height: 105vh;
+  margin-top: 10vh; 
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .landing-link{
+    min-height: 50vh;
+  background-size: 100% 100%;
+
+  }
 }
 
