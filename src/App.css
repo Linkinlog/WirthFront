@@ -3,6 +3,8 @@
   --main-green: #606D52;
   --main-light: #E9D8C6;
   --main-red: #B76140;
+  --main-brown: #967E5C;
+  --main-gray: #645C52;
 }
 
 @font-face {
@@ -32,14 +34,11 @@
 
 .btn-blog{
   font-family: 'MyFont';
-  font-size: 1.75vw;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  background-color: var(--main-green);
+  font-size: clamp(1.5rem, 1vw, 4rem);
+  background-color: var(--main-brown);
   color: var(--main-light);
-  height: 12.5vh;
-  width: 15vw;
+  margin-top: 1vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .separator {
@@ -68,6 +67,8 @@
 .mainb {
   border-color: var(--main-yellow) !important;
   margin-bottom: 5vh;
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .welcome-message {
@@ -95,6 +96,6 @@
   background-position: center top;
   min-height: 1200px;
   margin-top: 10vh;
-
-
+  
 }
+

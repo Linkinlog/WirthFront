@@ -12,7 +12,7 @@ export const Body = () => {
                 <div className="col-md-9 offset-md-1 text-center welcome-message">
                     <h6 className="text-start ">Hi! We are the Wirth Family!</h6>
                     <p className="text-start mt-3">For half a decade we have been learning and growing in the art of modern homesteading! We strive to bring you along in our journey of gardening, parenting, natural living, and of course suburban homesteading!  We live our life for the glory of God and for the health of our family. Our heart’s desire is to bring you authentic content, including hard-learned lessons and hearty, belly laughs; and we choose to take the good ‘ole front porch approach to do so! So come on in, kick off your shoes, and stay awhile—the coffee’s always on! </p>
-                    <div className=" offset-md-5 button btn btn-blog">Check out our blog!</div>
+                    <div className="button btn btn-blog">Check out our blog!</div>
                 </div>
             </div>
             <div className="row mt-5 welcome-message">
