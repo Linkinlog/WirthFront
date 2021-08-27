@@ -2,8 +2,8 @@ import React from 'react'
 
 export const Body = () => {
     return (
-        <div className="container">
-            <div className="landing-link">
+        <div className="row">
+            <div className=" col-md-10 offset-md-1 landing-link">
                 <div className="container text-center">
                     <h1 className="welcome">Welcome</h1>
                 </div>

@@ -7,6 +7,10 @@
   --main-gray: #645C52;
 }
 
+html{
+  margin: 1.25rem;
+}
+
 @font-face {
   font-family: 'MyFont';
   src: local('MyFont'), url(./fonts/Athelas-Regular.ttf) format('truetype');
@@ -66,7 +70,6 @@
 
 .mainb {
   border-color: var(--main-yellow) !important;
-  margin-bottom: 5vh;
   /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -92,9 +95,10 @@
 .landing-link {
   background-image: url("https://res.cloudinary.com/dhclz5fy2/image/upload/v1630026892/TheWirthHomeStead/landing-trowel_o1hhjz.jpg");
   background-repeat: no-repeat;
-  background-size: 85% 100%;
+  background-size: 100% 100%;
   background-position: center top;
   min-height: 105vh;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
   margin-top: 10vh; 
 }
 @media only screen and (max-width: 768px) {
