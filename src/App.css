@@ -56,8 +56,8 @@ html{
   content: '';
   flex: 1;
   border-bottom: 1px solid var(--main-yellow);
-  margin-right: 5em;
-  margin-left: 5em;
+  margin-right: 2em;
+  margin-left: 2em;
 }
 
 .separator:not(:empty)::before {
