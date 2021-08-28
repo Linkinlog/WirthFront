@@ -79,6 +79,17 @@ html{
   color: var(--main-green);
 }
 
+.blog-text {
+  font-family: 'MyFont';
+  color: var(--main-green);
+}
+
+.blog-title{
+  font-family: 'Dancing Script', cursive;
+  color: var(--main-green);
+}
+
+
 .glad{
   font-family: 'Dancing Script', cursive;
 }
