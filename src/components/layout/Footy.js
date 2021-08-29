@@ -4,7 +4,7 @@ export const Footy = () => {
 	return (
 		<div className="row">
 			<div className="col-md-10 offset-md-1 border-top border-bottom">
-				<p className="border-start border-2 border-danger mt-3 ps-2">
+				<p className="border-start text-muted border-2 border-danger mt-5 ps-2">
 					“The true way to live is to enjoy every moment as it passes, and surely it is in the everyday things around us that the beauty of life lies.”
 					<br /> -Laura Ingalls Wilder
 				</p>
