@@ -5,7 +5,7 @@ export const Navbar = () => {
 	return (
 		<div className="container">
             <Link to="/">
-			<div class="hero"></div>
+			<div className="hero"></div>
             </Link>
 			<div className="container mt-3">
 				<ul className="nav separator justify-content-center">
